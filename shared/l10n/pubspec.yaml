@@ -2,15 +2,22 @@ name: l10n
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
+publish_to: none
 
 environment:
   sdk: ^3.7.0
   flutter: ">=1.17.0"
 resolution: workspace
+flutter_intl:
+  enabled: true
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter 
+  intl:
+  
 
 dev_dependencies:
   flutter_test:

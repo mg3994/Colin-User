@@ -18,6 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
 
+
 environment:
   sdk: ^3.7.0
 workspace:
@@ -26,12 +27,14 @@ workspace:
   # - features/l10nr
   # - features/themer
   # - features/updater
-  # - shared/components
+  - shared/components
   - shared/l10n
   - shared/packages
   - shared/preferences
   - shared/design_system
-
+executables:
+  antinna: # all helpful commands and how to use it will be here or say just select and run CLI like app
+  l10n:
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
@@ -41,10 +44,10 @@ workspace:
 dependencies:
   flutter:
     sdk: flutter
+  core:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:

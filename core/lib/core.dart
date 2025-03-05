@@ -1,5 +1,21 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+// library core;
+// external
+export 'package:preferences/preferences.dart';
+export 'package:packages/packages.dart';
+
+export 'adaptor/adapter.dart';
+// hive
+export 'cache/cache.dart';
+export 'constants/constants.dart';
+
+export 'errors/errors.dart';
+
+export 'injector/injector.dart';
+
+export 'module/module.dart';
+//network
+export 'network/network.dart';
+export 'services/services.dart';
+export 'usecases/usecase.dart';
+export 'utils/utils.dart';
+

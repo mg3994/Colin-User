@@ -2,6 +2,7 @@ name: packages
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
+publish_to: none
 
 environment:
   sdk: ^3.7.0
@@ -11,11 +12,24 @@ resolution: workspace
 dependencies:
   flutter:
     sdk: flutter
+  # icons 
+  cupertino_icons: ^1.0.8
+  # Locales Translation Package (SELF)
+  l10n:
+   # State Management
+  # dartz: ^0.10.1
+  # flutter_bloc: ^8.1.6
+  # Data Class Helpers
+  # json_annotation: ^4.9.0
+  # freezed_annotation: ^2.4.4
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  # build_runner: todo
+  # freezed and json
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

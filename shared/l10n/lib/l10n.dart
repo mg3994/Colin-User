@@ -1,5 +1,7 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'generated/l10n.dart';
+
+
+export 'package:flutter_localizations/flutter_localizations.dart';
+export 'package:flutter_localizations/src/cupertino_localizations.dart';
+
+export 'package:intl/intl.dart';
